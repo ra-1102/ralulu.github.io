@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script defer src="./main.js"></script>
+  <title>Laysi Medic</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="barra">
+      <div>
+        <img src="./imagenes/logo pmg.png" alt="logo de pagina">
+      </div>
+      <nav>
+        <ul>
+          <li> <a href="file:///C:/Users/dianey/Desktop/PRACTICAS/Mi%20pagina%20web/index.html">
+            INICIO
+          </a></li>
+          <li><a href="file:///C:/Users/dianey/Desktop/PRACTICAS/Mi%20pagina%20web/resumenes/resumenes.html">
+            RESUMENES
+          </a></li>
+          <li><a href="file:///C:/Users/dianey/Desktop/PRACTICAS/Mi%20pagina%20web/productos/productos.html">
+            PRODUCTOS
+          </a></li>
+          <li><a href="file:///C:/Users/dianey/Desktop/PRACTICAS/Mi%20pagina%20web/accesorios/accesorios.html">
+            ACCESORIOS
+          </a></li>
+        </ul>
+      </nav>
+  </header>
+  <div>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="./imagenes/carousel5.jpg" class="d-block w-100 img-carrusel" alt="carousel 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>BATA QUIRURGICA</h1>
+            <p class="fs-6">100% reusable, color morado, talla mediana e incluye gorro quirurgico.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./imagenes/carousel 2.jpg" class="d-block w-100 img-carrusel" alt="carousel 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>BAUMANOMETRO Y ESTETOSCOPIO</h1>
+            <p class="fs-6">bolsa que incluye baumanometro y estetoscopio de color morado,tiene olivas de repuesto.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./imagenes/carousel 3.jpg" class="d-block w-100 img-carrusel" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>PIJAMA QUIRURGICA PARA DAMA</h1>
+            <p class="fs-6">anti fluidos, color azul marino, incluye gorro, todas las tallas disponibles. </p>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./imagenes/carousel 4.jpg" class="d-block w-100 img-carrusel" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>PIJAMA QUIRURGICA ESTAMPADA PARA DAMA</h1>
+            <p class="fs-6">anti fluidos, color rosa con estampado de corazones, incluye gorro, todas las tallas
+              disponibles</p>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <div class="cuerpo">
+      <div class="caja">
+        <img src="./imagenes/resumenes.jpg" alt="resumenes base">
+        <h1>Resumenes</h1>
+        <p>Basados en el programa de la UNAM.</p>
+      </div>
+      <div class="caja">
+        <img src="./imagenes/productos.jpg" alt="productos base">
+        <h1>Productos</h1>
+        <p>Precios accesibles, batas, pijama quirugica, zapatos, gorros, material medico.</p>
+      </div>
+      <div class="caja">
+        <img src="./imagenes/accesorios.jpg" alt="accesorios base">
+        <h1>Accesorios</h1>
+        <p>Para darle más diversión a la medicina, pines, pinzas del cabello, controles inalambricos, sellos, gafetes,
+          bolsas, tablas MIP, entre muchas otras cosas.</p>
+      </div>
+    </div>
+
+    <div class="contenedor">
+      <div class="noticias">
+        <h1>11 de febrero: Día Internacional de la Mujer y la Niña en la Ciencia</h1>
+        <div id="contenido">
+          <p> En 2016, la Asamblea General de las Naciones Unidas decidió proclamar el 11 de febrero como el Día
+            Internacional de la Mujer y la Niña en la Ciencia. El propósito es poner fin al desequilibrio de género en
+            esta disciplina.</p>
+        </div>
+        <button onclick='muestra_oculta("contenido")' class="btn btn-primary" form="contenido">+</button>
+      </div>
+
+      <div class="noticias">
+        <h1>21 de febrero: Día Internacional de la Lengua Materna</h1>
+        <div id="contenido2">
+          <p>El Día Internacional de la Lengua Materna se celebra desde 2002 con el objetivo de promover el
+            multilingüismo y la diversidad cultural. De acuerdo con la ONU, cerca del 43% de las 6 mil lenguas que se
+            estima que se hablan en el mundo están en peligro de desaparecer.</p>
+        </div>
+        <button onclick="muestra_oculta('contenido2')" class="btn btn-primary" form="contenido2">+</button>
+      </div>
+
+      <div class="noticias">
+        <h1>1 Marzo: Día de la Cero Discriminación</h1>
+        <div id="contenido3">
+          <p>El 1 de diciembre de 2013 la ONU estableció este día para recordar que todas las personas deben recibir un
+            trato digno sin importar su edad, sexo, identidad de género, orientación sexual, discapacidad, raza, etnia,
+            idioma, estado de salud —incluido el VIH—, ubicación geográfica, situación económica o estado migratorio, o
+            por cualquier otra razón.</p>
+        </div>
+        <button onclick="muestra_oculta('contenido3')" class="btn btn-primary" form="contenido3">+</button>
+      </div>
+
+    </div>
+
+    <footer class="footer">
+      <div class="conteiner">
+
+        <div class="footer-row">
+
+          <div class="footer-links">
+            <h4>COMPAÑIA</h4>
+            <ul>
+              <li><a href="">NOSOTROS</a></li>
+              <li><a href="">POLITICAS DE PRIVACIDAD</a></li>
+              <li> <a href="">REGISTRATE</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>SERVICIOS</h4>
+            <ul>
+              <li> <a href="file:///C:/Users/dianey/Desktop/PRACTICAS/Mi%20pagina%20web/resumenes/resumenes.html">RESUMENES</a></i>
+                <li><a href="file:///C:/Users/dianey/Desktop/PRACTICAS/Mi%20pagina%20web/accesorios/accesorios.html"> ACCESORIOS</a></i>
+                  <li><a href="file:///C:/Users/dianey/Desktop/PRACTICAS/Mi%20pagina%20web/productos/productos.html"> PRODUCTOS</a></i>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>REDES SOCIALES</h4>
+            <div class="social-links">
+               <a href="#"><span style="color: #ffffff;"><i class="fab fa-facebook fa-3x"></i></span></a>
+              <a href="#"><span style=" color: #ffffff;"><i class="fab fa-instagram fa-3x"></i></span></a>
+              <a href="#"></a><span style="color: #ffffff;"><i class="fab fa-tiktok fa-3x"></i></span></a> 
+              
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4>DUDAS O COMENTARIOS</h4>
+            <ul>
+              <li>CORREO: Laysimedic@gmail.com</li>
+            </ul>
+          </div>
+
+
+
+
+
+          <p class="fs-6">2024. México, CDMX. Derechos reservados.  Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
