@@ -109,10 +109,17 @@ button {
 }
 
 .img-carrusel {
-    width: 600px;
-    height: 600px;
+    object-fit: cover;
+}
+.carousel-div {
+    max-width: 100%;
 }
 
+.carousel-img {
+
+    max-width: 25vw;
+    margin: 0 auto;
+}
 .conteiner {
     max-width: 1200px;
     margin: 0 auto;
